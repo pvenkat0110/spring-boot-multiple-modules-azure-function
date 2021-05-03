@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: [ main ]
   workflow_dispatch:
+env:
+  POM_XML_DIRECTORY: '.'
+  POM_FUNCTIONALITYAPP_NAME: multi-module-functions
   
 jobs:
   build:
