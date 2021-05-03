@@ -6,8 +6,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class MultiModuleFunctionsApplicationTests {
 
+	
 	@Test
-	void contextLoads() {
+	void sampleTest()
+	{
+		System.out.println("Do nothing");
 	}
 
 }
